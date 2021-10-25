@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga</title>
+    <link rel="stylesheet" href="homepage.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Images/logo.png" alt="logo">
+        </div>
+        <Ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About us</a></li>
+            <li class="item"><a href="#">Yoga</a></li>
+
+            <li class="item"><a href="joinpage.html">How to Join</a></li>
+            <li class="item"><a href="gallery.html">Gallery</a></li>
+            <li class="item"><a href="#">Programs</a></li>
+        </Ul>
+    </nav>
+    <section id="Home">
+        <h1 class="h-primary">WELCOME TO FREE YOGA ONLINE CLASSES</h1>
+        <p>
+            NESTED FITNESS provides free Online yoga class for our members,
+            join the free Online classes now
+
+            Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient
+            India. Yoga is one of the six Āstika schools of Indian philosophical traditions.
+
+        </p>
+        <button class="btn"><a href="joinpage.html">JOIN NOW</a></button>
+    </section>
+
+
+
+    <!-- slide Images -->
+
+<!--  -->
+    <div class="slideshow-container">
+            <h1 class="center">Yoga classes Videos</h1>
+            <img class="process" src="Images/process.png" alt="Picture">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <iframe src="https://www.youtube.com/embed/oBu-pQG6sTY" frameborder="0" width="1000px" height="500px"></iframe>
+            <div class="textS">Class-1</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <iframe src="https://www.youtube.com/embed/TB2ISQZ5Mb0" frameborder="0"width="1000px "height="500px"></iframe>
+            <div class="textS">Class-2</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <iframe src="https://www.youtube.com/embed/FqGHWXjgn-M" frameborder="0"width="1000px" height="500px"></iframe>
+            <div class="textS">Class-3</div>
+        </div>
+        <div class="buttonS">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="service-container5">
+    <h2 class="h-secondry center"><i>CONNECT WITH US</i></h2>
+    <img src="Images/process.png" alt="Picture" style="width:10%;max-width:100%">
+    <div id="connect-box">
+        <div class="connect">
+            <a href="https://www.facebook.com/dhirajkumar.rajput.37">
+                <img src="Images/facebook.png" alt="facebook"></a>
+        </div>
+        <div class="connect">
+            <a href="https://www.instagram.com/dhirajkumar.rajput.37/">
+                <img src="Images/insta.png" alt="instagram"></a>
+        </div>
+
+        <div class="connect">
+            <a href="https://twitter.com/KumarDhirajRaj3"> <img src="Images/twitter.png" alt="twitter"></a>
+        </div>
+
+        <div class="connect">
+            <a href="https://www.youtube.com/channel/UCMQQczkbRhWVyoTb2d4JG7Q">
+                <img src="Images/youtube.png" alt="youtube"></a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="service-container6">
+
+    <div id="connect-box1">
+        <div class="connect">
+            <h6 class="text">Services</h6>
+            <ul>
+                <li><a href="#">Foundations</a></li>
+                <li><a href="#"> Skill Accelerator</a></li>
+                <li><a href="#"> Week Signature Transformation</a></li>
+                <li>​<a href="#">Online Personal Training</a></li>
+            </ul>
+
+
+            <!-- <img src="facebook.png" alt="facebook"> -->
+        </div>
+        <div class="connect">
+            <h6 class="text">Learn More</h6>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+
+            </ul>
+
+            <!-- <img src="insta.png" alt="facebook"> -->
+        </div>
+        <div class="connect">
+            <h6 class="text">Adress</h6>
+            <p> Friends Tower,Sanjay place, Agra</p>
+
+            <!-- <img src="twitter.png" alt="facebook"> -->
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+</body>
+<footer>
+    <div class="center">
+        copyright &copy; www.NestedFitness.com All right reserved
+    </div>
+</footer>
+
+
+</html>

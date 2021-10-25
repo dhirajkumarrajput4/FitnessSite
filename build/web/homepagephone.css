@@ -1,0 +1,158 @@
+/* Navigation var */
+#navbar
+{
+    flex-direction: column;
+}
+#navbar ul
+{
+    
+}
+
+
+
+/* Home */
+
+#Home
+{
+    height: 45vh;
+    width: 107vw;
+}
+#Home p {
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 6px;
+    text-align: justify;
+}
+#Home::before
+{
+ 
+height: 45vh;
+width: 107vw;
+}
+
+/*Service Section */
+#service{
+    flex-direction: column;
+}
+
+#service .box {
+    /* border: 2px solid red; */
+    margin: 1px;
+    margin-left: -21px;
+}
+
+#service .box img {
+    display: block;
+    height: 290px;
+    width: 279px;
+    border-radius: 12px;
+    margin: auto;
+    margin-left: -23px;
+}
+
+#service .box button {
+    display: block;
+    margin-left: -1px;
+    margin-bottom: 36px;
+    width: 138px;
+    height: 33px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* Offer section */
+
+#offer {
+   
+    height: 45vh;
+    width: 114vw;
+}
+#offer::before {
+
+    height: 40vh;
+    width: 131vw;
+   
+}
+#offer button
+{
+    display: block;
+    margin: auto;
+    width: 125px;
+    height: 35px;
+    background-color:transparent;
+    border-color: white;
+    color: white;
+   
+    /* padding-bottom: 22px; */
+}
+
+
+/* section service container3 */
+#container-box
+{
+    flex-direction: column;
+}
+#container-box .box1 img {
+    display: block;
+    height: 350px;
+    width: 379px;
+    border-radius: 18px;
+    margin: auto;
+    margin-left: -18px;
+}
+#container-box .box1 button {
+    display: block;
+    margin: auto;
+    margin-bottom: 18px;
+    width: 117px;
+    height: 33px;
+    background-color: white;
+    border: 1px solid black;
+}
+/* section service container4 */
+
+/* section service container5 */
+.service-container5 {
+   
+    
+    width: 114vw;
+}
+#connect-box .connect img {
+    display: block;
+    height: 100px;
+    width: 70px;
+    border-radius: 18px;
+}
+
+/* section service container6 */
+.service-container6
+{
+    width: 114vw;
+}
+#connect-box1 .connect {
+    /* border: 2px solid blue; */
+    margin: 34px 45px;
+    display: block;
+    margin: 16px;
+}
+
+/* section footer */
+footer
+{
+    width: 100vw;
+}
+
+/* Utility classes */
+
+
+.text {
+    font-size: 0.7rem;
+    margin: 0px;
+    margin-bottom: 12px;
+    
+}
+.h-primary {
+    font-size: 1.8rem;
+    padding-top: 5px;
+}
+

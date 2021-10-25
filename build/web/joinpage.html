@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="joinpage.css">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Join</title>
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Images/logo.png" alt="logo">
+        </div>
+        <Ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About us</a></li>
+            <li class="item"><a href="yoga.html">Yoga</a></li>
+          
+            <li class="item"><a href="joinpage.html">How to Join</a></li>
+            <li class="item"><a href="gallery.html">Gallery</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+        </Ul>
+
+    </nav>
+
+    <section id="Home1">
+        <div class="text1">
+            <h1 class="h-primary"><i>Welcome To Nested Fitness Club</i></h1>
+            <h1 class="h-secondry">Personal Training</h3>
+                <p>PERSONAL TRAINING IS TAILORED TO YOUR GOALS AND EXPERIENCE IN A WAY THAT SUPPORTS YOUR
+                    LIFESTYLE SO THAT YOU HAVE FLEXIBILITY TO TRAIN WHEREVER AND WHENEVER YOU WANT.
+                </p>
+                <button class="btn"><a href="#Join">JOIN NOW</a> </button>
+        </div>
+
+    </section>
+
+    <section id="Join">
+        <div class="Form_area">
+            <h1 class="h-secondry center">
+                About You
+            </h1>
+
+            <form action="#">
+                <label for="adress"><b>Name</b></label><input type="text" class="input" placeholder="Full name" required><br> 
+                <label for="adress" style="margin-left:-25px;"><b>ADDRES</b></label>   <input type="text" class="input" placeholder="Addres line 1" required><br> 
+                <label for="Email" style="margin-left:-8px;"><b>EMAIL</b></label>   <input type="email" class="input" placeholder="Email" required>  <br>
+                <label for="mobile" style="margin-left:-25px;"><b>MOBILE</b></label>   <input type="tel"class="input"  placeholder="Mobile" required pattern="[0-9]{10}">  <br>
+                <label for="gender" style="margin-left:-40px;"><b>GENDER</b></label>   
+                <input type="radio" name="gender" class="gender" required><label>Male</label>
+                <input type="radio" name="gender" class="gender"><label>Female</label>
+                <input type="radio" name="gender" class="gender"><label>Other</label>  <br>
+                <label for="DOB" style="margin-left:-120px;"><b>DATE OF BIRTH</b></label>   <input type="date" class="input" placeholder="Date of Birth" style="width:295px;" required> <br> 
+                <label for="height" style="margin-left:-25px;"><b>HEIGHT</b></label>   <input type="text" class="input" placeholder="  .CM" required pattern="[0-9]{3}">  <br>
+                <label for="weight" style="margin-left:-25px;"><b>WEIGHT</b></label>   <input type="text"class="input"  placeholder="   .CM" required pattern="[0-9]{2}"> <br> 
+                <label for="weight" style="margin-left:-230px;"><b>SELECT TRAINING TYPE</b></label> 
+                 <select class="input" required>
+                     <option>
+                         <i>PERSONAL TRAINING</i>
+                     </option>
+                
+                     <option>
+                        <i> GROUP TRAINING</i>
+                     </option>
+                
+                     <option>
+                        <i> HOME TRAINING</i>
+                     </option>
+                
+                     <option>
+                        <i> ONLINE TRAINING</i>
+                     </option>
+                 </select>
+
+                <br><input type="submit" class="fbutton">
+            </form>
+        </div>
+    </section>
+
+
+    <section class="service-container5">
+        <h2 class="h-secondry center"><i>CONNECT WITH US</i></h2>
+        <img src="Images/process.png" alt="Picture" style="width:10%;max-width:100%">
+        <div id="connect-box">
+            <div class="connect">
+                <a href="https://www.facebook.com/dhirajkumar.rajput.37">
+                <img src="Images/facebook.png" alt="facebook"></a>
+            </div>
+            <div class="connect">
+                <a href="https://www.instagram.com/dhirajkumar.rajput.37/">
+                <img src="Images/insta.png" alt="instagram"></a>
+            </div>
+
+            <div class="connect">
+                <a href="https://twitter.com/KumarDhirajRaj3"> <img src="Images/twitter.png" alt="twitter"></a>
+            </div>
+
+            <div class="connect">
+                <a href="https://www.youtube.com/channel/UCMQQczkbRhWVyoTb2d4JG7Q">
+                <img src="Images/youtube.png" alt="youtube"></a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="service-container6">
+
+        <div id="connect-box1">
+            <div class="connect">
+                <h6 class="text">Services</h6>
+                <ul>
+                    <li><a href="#">Foundations</a></li>
+                    <li><a href="#"> Skill Accelerator</a></li>
+                    <li><a href="#"> Week Signature Transformation</a></li>
+                    <li>​<a href="#">Online Personal Training</a></li>
+                </ul>
+
+
+                <!-- <img src="facebook.png" alt="facebook"> -->
+            </div>
+            <div class="connect">
+                <h6 class="text">Learn More</h6>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+
+                </ul>
+
+                <!-- <img src="insta.png" alt="facebook"> -->
+            </div>
+            <div class="connect">
+                <h6 class="text">Adress</h6>
+                <p> Friends Tower,Sanjay place, Agra</p>
+
+                <!-- <img src="twitter.png" alt="facebook"> -->
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+</body>
+<footer>
+    <div class="center">
+        copyright &copy; www.NestedFitness.com All right reserved
+    </div>
+</footer>
+
+
+
+</html>

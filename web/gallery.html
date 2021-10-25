@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Images/logo.png" alt="logo">
+        </div>
+        <Ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About us</a></li>
+            <li class="item"><a href="yoga.html">Yoga</a></li>
+
+            <li class="item"><a href="joinpage.html">How to Join</a></li>
+            <li class="item"><a href="gallery.html">Gallery</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+        </Ul>
+    </nav>
+    <section id="Home">
+        <h1 class="h-primary">IMAGES GALLERY</h1>
+        <p>
+
+
+            I LOVE TO SEE CLIENTS IGNITE THAT LITTLE FIRE INSIDE THEM. <br>
+            WORK FOCUSED IN THE RIGHT DIRECTION AND COMMITMENT CAN HELP <br>
+            SUCCEED AT ANYTHING THEY TURN THEIR HAND TO.
+
+        </p>
+
+    </section>
+
+
+    
+
+    <!-- The four columns -->
+   
+<div style="text-align:center">
+    <h2>Tabbed Image Gallery</h2>
+    <p>Click on the images below:</p>
+  </div>
+
+
+  
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="GYM/A.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="GYM/B.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="GYM/C.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    </div>
+  
+    <div class="column">
+      <img src="GYM/F.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="GYM/G.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container1">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+
+  
+  <script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+  </script>
+    <section class="service-container5">
+        <h2 class="h-secondry center"><i>CONNECT WITH US</i></h2>
+        <img src="Images/process.png" alt="Picture" style="width:10%;max-width:100%">
+        <div id="connect-box">
+            <div class="connect">
+                <a href="https://www.facebook.com/dhirajkumar.rajput.37">
+                    <img src="Images/facebook.png" alt="facebook"></a>
+            </div>
+            <div class="connect">
+                <a href="https://www.instagram.com/dhirajkumar.rajput.37/">
+                    <img src="Images/insta.png" alt="instagram"></a>
+            </div>
+
+            <div class="connect">
+                <a href="https://twitter.com/KumarDhirajRaj3"> <img src="Images/twitter.png" alt="twitter"></a>
+            </div>
+
+            <div class="connect">
+                <a href="https://www.youtube.com/channel/UCMQQczkbRhWVyoTb2d4JG7Q">
+                    <img src="Images/youtube.png" alt="youtube"></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="service-container6">
+
+        <div id="connect-box1">
+            <div class="connect">
+                <h6 class="text">Services</h6>
+                <ul>
+                    <li><a href="#">Foundations</a></li>
+                    <li><a href="#"> Skill Accelerator</a></li>
+                    <li><a href="#"> Week Signature Transformation</a></li>
+                    <li>​<a href="#">Online Personal Training</a></li>
+                </ul>
+
+
+                <!-- <img src="facebook.png" alt="facebook"> -->
+            </div>
+            <div class="connect">
+                <h6 class="text">Learn More</h6>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+
+                </ul>
+
+                <!-- <img src="insta.png" alt="facebook"> -->
+            </div>
+            <div class="connect">
+                <h6 class="text">Adress</h6>
+                <p> Friends Tower,Sanjay place, Agra</p>
+
+                <!-- <img src="twitter.png" alt="facebook"> -->
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+</body>
+<footer>
+    <div class="center">
+        copyright &copy; www.NestedFitness.com All right reserved
+    </div>
+</footer>
+
+</html>
